@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Great+Vibes&display=swap');
+
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4.5rem; 
+    letter-spacing: 2px;
+}
+
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #c5a880;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfbf7;
+    color: #4a4a4a;
+}
+h3, .font-serif {
+    font-family: 'Playfair Display', serif;
+}
+.Utama {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRPZk5mID3eDe72ZVitMzsXPrHZx8l7GSM7JPOfdIxiLOfgjfHm6UPUUw2&s=10');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.card-custom {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    background: #ffffff;
+}
+.btn-custom {
+    background-color: #c5a880;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+.btn-custom:hover {
+    background-color: #b0936b;
+    color: white;
+}
+.rounded-circle-custom {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #c5a880;
+}
+
+.galeri-item {
+    overflow: hidden;
+    border-radius: 12px;
+}
+.galeri {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.4s ease, filter 0.4s ease;
+    cursor: pointer;
+}
+.galeri:hover {
+    transform: scale(1.08); 
+    filter: brightness(1.05);
+}
+.countdown-box {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 10px 15px;
+    min-width: 70px;
+}
